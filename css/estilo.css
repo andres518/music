@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    float:inherit;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: #FD4C5C;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 10px 30px;
+    border:0px;
+}
+section img{
+    width: 500px;
+}
+span{
+    font-size: 50px;
+    background: #ccc;
+    background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+    font-family:system-ui;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+footer{
+    background-color: #fd4c5c;
+    height: 50%;
+    width: 101%;
+    color: white;
+}
+.columnas{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.tamaño{
+    margin: 0 90px;
+    padding: 20px 0;
+}
+.correo{
+    text-align: right;
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 1903px;
+}
+.otro{
+    position: absolute;
+    top: 295%;
+    left: 1093px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+.texto{
+    position: absolute;
+    top: 330%;
+    left: 1093px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    width: 1903px;
+}
+.centrado{
+    position: absolute;
+    top:25%;
+    left: 738px;
+    color: rgb(255, 255, 255);
+    font-size: 171px;
+}
+
+.margen{
+    padding: 150px 400px 60px;
+}
+
+.derecha{
+    float: right;
+    width: 550px;
+    margin: 0px 80px 0px 0px;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    margin: 0px 80px 0px 0px;
+}
+.clear{
+    clear: both;
+}
